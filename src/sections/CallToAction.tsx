@@ -19,7 +19,7 @@ export const CallToAction = () => {
       <div className='section-heading relative' >
         <h2 className="section-title ">Sign up for free today</h2>
         <p className="section-description mt-5 ">
-          Celebrate the joy of accomplishment with an app designed to track your progress and motivate your efforts.
+         
         </p>
         <motion.img src={starImage.src} alt='Star Image' width={360}  
         className='absolute -left-[350px] -top-[137px]'

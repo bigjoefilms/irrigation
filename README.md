@@ -1,8 +1,8 @@
-## Smart Irrigation for Tuber Crops 🌱💧
+# Smart Irrigation for Tuber Crops 🌱💧
 Optimize Water Usage, Maximize Yield, and Farm Smarter
 Empower your farm with real-time monitoring, automated irrigation, and AI-driven analytics. Our smart irrigation system helps farmers reduce water waste, improve crop productivity, and ensure sustainable farming for tuber crops like yams, cassava, and sweet potatoes.
 
-# 🌿 Why Choose Smart Irrigation?
+## 🌿 Why Choose Smart Irrigation?
 🚀 Efficient Water Management → Reduce water consumption while keeping your crops healthy.
 📊 Real-time Monitoring → Track soil moisture, temperature, and weather conditions with IoT sensors.
 🤖 Automated Irrigation → Water only when necessary with intelligent scheduling.

@@ -1,6 +1,6 @@
 "use client"
 import Image from "next/image";
-import productImage from   "@/assets/product-image.png"
+import productImage from   "@/assets/green.jpg"
 import pyramidImage from '@/assets/pyramid.png'
 import tubeImage from '@/assets/tube.png'
 import {motion ,useScroll, useTransform} from 'framer-motion'
@@ -27,8 +27,9 @@ export const ProductShowcase = () => {
 
 
         </div>
-        <h2 className="section-title mt-5">A more effective way to track progress</h2>
-        <p className="section-description mt-5">Effortlessly turn your idea into full functional, responsive ,Saas website in just minutes with this template.</p>
+        <h2 className="section-title mt-5">Optimize Water Usage, Maximize Yield</h2>
+        <p className="section-description mt-5">Our smart irrigation system leverages IoT sensors, real-time data analytics, and automated scheduling 
+            to help farmers efficiently manage water resources,</p>
         </div>
         <div className="relative ">
 <Image src={productImage} alt="Product image" className="mt-10"/>

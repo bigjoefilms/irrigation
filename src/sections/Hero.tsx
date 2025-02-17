@@ -20,7 +20,7 @@ export const Hero = () => {
   // console.log(latestValue) );
 
   return (
-    <section ref={heroRef} className="pt-8 pb-20 md:pt-5 md:pb-10 overflow-x-clip" style={{ background: 'radial-gradient(ellipse 200% 100% at bottom left, #183EC2, #EAEEFE 100%)' }}>
+    <section ref={heroRef} className="pt-8 pb-20 md:pt-5 md:pb-10 overflow-x-clip" style={{ background: 'radial-gradient(ellipse 200% 100% at bottom left, #18c24b, #EAEEFE 100%)' }}>
       <div className="container">
         <div className='md:flex items-center '>
           <div className='md:w-[478px]'>
@@ -28,7 +28,8 @@ export const Hero = () => {
             <h1 className=" text-5xl md:text-7xl font-bold tracking-tighter bg-clip-text text-transparent bg-gradient-to-b from-black to-[#001E80]  mt-4">Smart Irrigation for Crops 🌱💧</h1>
             <p className="text-xl text[#010D3E] tracking-tight mt-6"> Empower your farm with real-time monitoring, automated irrigation, and AI-driven analytics. Our smart irrigation system helps farmers reduce water waste.</p>
               <div className="flex gap-1 items-center mt-[30px]">
-              <button className="btn btn-primary">Get for free</button>
+              <a href='/dashboard'>
+              <button className="btn btn-primary">Get Started</button></a>
               <button className="btn btn-text gap-1"><span>
               Learn more
                 </span>
@@ -47,7 +48,7 @@ export const Hero = () => {
               ease: 'easeInOut'
             }}
             />
-           <motion.img src={cylinderImage.src} 
+           {/* <motion.img src={cylinderImage.src} 
            alt=' cylinder Image' 
            width={220}  
            height={220}
@@ -63,7 +64,7 @@ export const Hero = () => {
             rotate: 30,
             translateY: translateY,
            }}
-           />
+           /> */}
           </div>
         </div>
       </div>
